@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+int n, num, rev = 0;
+cout << "Enter a positive number";
+cin >> num;
+do
+{
+ digit = num % 10;
+ rev = (rev * 10) + digit;
+ } while (num !=0);
+ cout << "The reverse of the number is: " << rev << endl;
+ if (n == rev)
+ cout << "Number is Palindrome";
+ else
+ cout<< "Number is not palindrome";
+ return0;
+ }
